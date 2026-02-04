@@ -119,13 +119,13 @@ const Hero = () => {
 
 
         <h2 className="text-center font-bold text-5xl">Why DriverX Mobile?</h2>
-
+<br />
 
           <div className="grid gap-8 md:grid-cols-3">
     {mobileFeatures.map((item) => (
       <div
         key={item.id}
-        className="rounded-2xl bg-white p-6 shadow-lg"
+        className="rounded-2xl bg-white p-6 shadow-lg flex flex-col items-center"
 >
         <Image
           src={item.image}

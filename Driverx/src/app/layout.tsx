@@ -1,3 +1,4 @@
+import Bottom from "./components/N/Bottom";
 import Navbar from "./components/N/Navbar";
 import "./globals.css";
 
@@ -16,7 +17,11 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+              <Bottom/>
       </body>
+
+
+      
     </html>
   );
 }
