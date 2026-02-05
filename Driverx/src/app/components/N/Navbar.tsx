@@ -30,6 +30,12 @@ export default function Navbar() {
             </Link>
             <Link href="/plans" className="text-gray-600 hover:text-gray-900">
              plans
+            <ul>
+               <li>Prepaid</li>
+             <li>postpaid</li>
+             <li>Buisiness</li>
+             <li>topup</li>
+            </ul>
             </Link>
             <Link href="/about" className="text-gray-600 hover:text-gray-900">
              Partner offers
