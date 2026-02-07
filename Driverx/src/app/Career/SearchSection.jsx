@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { jobsData } from "../../Sdata/jobsData";
+import jobsData from "./jobsData";
+
 
 
  function SearchSection() {
