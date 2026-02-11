@@ -1,5 +1,11 @@
-import Career from "./career";
+import Leadership from "./Leadership";
 
-export default function Page() {
-  return <Career />;
+
+export default function page(){
+
+    return(
+        <div>
+<Leadership/>
+        </div>
+    );
 }
