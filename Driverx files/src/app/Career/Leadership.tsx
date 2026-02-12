@@ -17,13 +17,13 @@
     },
     {
       
-      img: "/images/Group 1597883024.png",
+      img: "/images/Group 1597883027.png",
       bio: "A commercially astute leader with a track record in enterprise sales, B2B growth, and telecom market development. Junior has been instrumental in scaling MVNO offerings across the U.S. and Europe, forging strong partnerships with OEMs, logistics platforms, and fintech providers. He leads DriverX’s revenue strategy, alliances, and go-to-market execution."
     },
     {
      
-      img: "/images/Group 1597883024.png",
-      bio: "An expert in regulatory and compliance matters, Luis ensures the company operates within global telecom laws and international standards."
+      img: "/images/Group 1597883024 (3).png",
+      bio: "An award-winning customer experience executive with nearly two decades in CX design, bilingual support, and service operations across telecom and digital finance. Luis ensures every DriverX customer touchpoint - from onboarding to support to loyalty - reflects the company’s commitment to driver-first service and long-term value."
     }
   ];
 
@@ -40,9 +40,9 @@ the people who move America.
           </p>
         </div>
 
-        <h2 className="text-center text-lg font-semibold tracking-widest text-green-700 mb-10">
-          EXECUTIVE LEADERSHIP
-        </h2>
+        <h1 className="text-center text-4xl font-semibold tracking-widest text-green-700 mb-10">
+  EXECUTIVE LEADERSHIP
+</h1>
 
         {/* Leader Cards */}
         <div className="space-y-14">
@@ -62,8 +62,7 @@ the people who move America.
 
               {/* Text */}
               <div className="flex-1">
-                <h3 className="text-xl font-bold text-gray-900">{leader.name}</h3>
-                <p className="text-teal-600 font-medium mb-3">{leader.role}</p>
+              
                 <p className="text-gray-600 leading-relaxed">{leader.bio}</p>
               </div>
             </div>
