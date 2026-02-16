@@ -33,6 +33,7 @@ const mobileFeatures = [
 
 const Hero = () => {
   return (
+    <>
     <section className="relative overflow-hidden bg-gradient-to-br from-[#f6fbef] to-[#e9f7e8]">
       <div className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid items-center gap-16 md:grid-cols-2">
@@ -115,6 +116,8 @@ const Hero = () => {
       </div>
 
 
+      {/*
+      
       <div className="mx-auto max-w-7xl px-6 py-20">
 
 
@@ -157,10 +160,70 @@ const Hero = () => {
 
 
       </div>
+      */}
     </section>
 
+<section className="bg-gray-100 p-4;">
+
+<p className="text-xl font-medium text-center p-4">Supporting professionals across rideshare, delivery, and mobility services such as Lyft, Uber, DoorDash, Cabify, Bolt, and beyond.</p>
+
+ <div className="flex justify-center items-center space-x-6 p-6 bg-gray-100">
+      <img src="/images/lyft-logo-1.png" alt="Lyft" className="h-12 w-auto" />
+      <img src="/images/Uber_logo.png" alt="Uber" className="h-12 w-auto" />
+      <img src="/images/DoorDash_Logo.png" alt="DoorDash" className="h-12 w-auto" />
+      <img src="/images/Cabify_logo.png" alt="Cabify" className="h-12 w-auto" />
+      <img src="/images/bolt-1.png" alt="Bolt" className="h-12 w-auto" />
+    </div>
 
 
+</section>
+<section className="relative overflow-hidden 
+bg-[linear-gradient(135deg,#e8dfc8_0%,#d7e2c9_45%,#c8d8c8_100%)] 
+py-24">
+
+  <div className="max-w-7xl mx-auto px-6 
+                  flex items-center justify-between gap-16">
+
+    {/* LEFT - Image */}
+    <div className="w-1/2 flex justify-center">
+      <img 
+        src="/images/New Project 186 [ED072AB].png" 
+        alt="Driver" 
+        className="h-[420px] w-auto object-contain"
+      />
+    </div>
+
+    {/* RIGHT - Text */}
+    <div className="w-1/2 space-y-6">
+      <h2 className="text-4xl font-bold text-gray-900 leading-tight">
+        How we support our drivers all over the world
+      </h2>
+
+      <p className="text-gray-700 text-lg">
+        We’re committed to empowering drivers globally with accessible,
+        reliable, and flexible services tailored to their everyday needs—
+        whether they’re on highways, in cities, or across borders.
+      </p>
+
+      <div className="flex gap-6">
+        <div className="bg-white rounded-xl shadow-md p-6 w-60">
+          <h4 className="font-semibold">Google Play</h4>
+          <p className="text-sm text-gray-500">4.9 / 5 rating</p>
+        </div>
+
+        <div className="bg-white rounded-xl shadow-md p-6 w-60">
+          <h4 className="font-semibold">Apple</h4>
+          <p className="text-sm text-gray-500">4.8 / 5 rating</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+</>
 
   );
 };
